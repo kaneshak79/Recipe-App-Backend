@@ -107,47 +107,37 @@ Connection lifecycle management
 
 🛠 Technology Stack
 Layer	Technology
+
 Runtime	Node.js
+
 Framework	Express.js
+
 Database	MongoDB
+
 ODM	Mongoose
+
 API Testing	Postman
+
 Environment	dotenv
+
 Development Tool	Nodemon
+
 Deployment	Render
+
 Version Control	Git
+
 Repository Hosting	GitHub
-⚙️ Environment Configuration
-.env file
-PORT=4000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/recipesDB
-🚀 Installation Guide
-Step 1: Clone Repository
-git clone <github-repo-url>
-cd Recipe-App
-Step 2: Install Dependencies
-npm install
-Step 3: Setup Environment Variables
 
-Create .env file and configure:
-
-PORT=4000
-MONGO_URI=your_mongodb_connection_string
-Step 4: Start Server
-npm run dev
-
-Application will run on:
-
-http://localhost:4000
-🔗 API Design
-Base URL
-http://localhost:4000/api
-Endpoints
 Method	Endpoint	Purpose
+
 POST	/recipes	Create recipe
+
 GET	/recipes	Get all recipes
+
 GET	/recipes/:id	Get recipe by ID
+
 PUT	/recipes/:id	Update recipe
+
 DELETE	/recipes/:id	Delete recipe
 
 📮 Postman API Documentation
