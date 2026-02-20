@@ -1,29 +1,3 @@
-// // const express = require("express");
-// import express from "express";
-// import { createRecipe,
-//   getAllRecipes,
-//   getRecipeById,
-//   updateRecipe,
-//   deleteRecipe} from "../controllers/RecipeController.js"
-// const router = express.Router();
-// // const {
-// //   createRecipe,
-// //   getAllRecipes,
-// //   getRecipeById,
-// //   updateRecipe,
-// //   deleteRecipe
-// // } = require("../controllers/RecipeController");
-
-// router.post("/recipes", createRecipe);
-// router.get("/recipes", getAllRecipes);
-// router.get("/recipes/:id", getRecipeById);
-// router.put("/recipes/:id", updateRecipe);
-// router.delete("/recipes/:id", deleteRecipe);
-
-// export default router;
-// // module.exports = router;
-
-
 import express from "express";
 import {
   createRecipe,
